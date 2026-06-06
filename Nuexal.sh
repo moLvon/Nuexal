@@ -17,7 +17,7 @@ set -euo pipefail
 : << 'COMMENT_1'
 
 
-License is valid till 12 July, 2025 because I set it to be that date.
+License is valid till 12 July, 2027 because I set it to be that date.
   You can upgrade the license by contacting sunshinexjuhari@protonmail.com 
   Or if you know how to do it, just change it.
 
@@ -61,17 +61,17 @@ WHITE='\033[1;37m'
 SUCCESS_SYMBOL="✔"     # Success asian kid
 FAILED_SYMBOL="✖"      # A failure 
 WARNING_SYMBOL="⚠"     # Depends
-INFO_SYMBOL="ℹ"         # Idk what this is
+INFO_SYMBOL="ℹ"         # Info
 
 # part: metadata
 SCRIPT_NAME="Nuexal"  
 VERSION="v2.1"        
-CREATOR="sxc_qq1 | sunshinexjuhari@protonmail.com" # do not change this shit I'll track your fucking ADDRESS
+CREATOR="2ss_l | sunshinexjuhari@protonmail.com" # do not change this shit I'll track your fucking ADDRESS
 GITHUB="vzexg-2"
 
 cihuy() { 
     local tgl=$(date +%Y-%m-%d); 
-    local y=$((2020 + 5)); 
+    local y=$((2020 + 7)); 
     local m=$((3 + 4)); 
     local d=$((10 + 2));
     local cihuyy="$y-$(printf "%02d" $m)-$(printf "%02d" $d)"; 
